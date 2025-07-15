@@ -115,11 +115,10 @@ Quelques routes principales :
 
 ## 🛠️ Tech Stack
 
-- **Laravel 11** (API REST)
+- **Laravel 12** (API REST)
 - **Laravel Sanctum** (auth)
 - **MySQL** / **SQLite**
-- **React 18** + **Vite**
-- **Tailwind CSS** (optionnel)
+- **React** + **Vite**
 
 ---
 
