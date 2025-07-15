@@ -6,8 +6,6 @@
 
 ---
 
----
-
 ## 🚀 Installation
 
 ### 🔧 Backend (Laravel API)
