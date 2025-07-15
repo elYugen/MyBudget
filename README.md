@@ -6,14 +6,6 @@
 
 ---
 
-## 📁 Architecture
-
-```
-app-budget/
-├── api/           → Laravel 11 (backend REST API)
-└── frontend/      → React 18 + Vite (frontend PWA/mobile)
-```
-
 ---
 
 ## 🚀 Installation
@@ -71,19 +63,13 @@ L'API est accessible par défaut sur `http://127.0.0.1:8000`.
 
 ### 🧩 Frontend (React + Vite)
 
-#### 1. Accéder au dossier
-
-```bash
-cd ../frontend
-```
-
-#### 2. Installer les dépendances
+#### 1. Installer les dépendances
 
 ```bash
 npm install
 ```
 
-#### 3. Lancer l'application en développement
+#### 2. Lancer l'application en développement
 
 ```bash
 npm run dev
@@ -102,7 +88,7 @@ L'authentification repose sur **Laravel Sanctum** :
 - Le token doit être envoyé dans les requêtes API :
 
 ```http
-Authorization: Bearer <votre_token>
+Authorization: Bearer <token>
 ```
 
 ---
